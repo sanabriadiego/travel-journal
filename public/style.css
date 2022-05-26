@@ -1,0 +1,119 @@
+/*GENERAL*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+}
+
+.fa-earth-americas{
+    font-size: 1.5rem;
+    margin-right: 7px;
+}
+
+.section-header h1{
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.904rem;
+}
+
+/*MAIN*/
+
+.section-main{
+    padding: 25px 40px 30px;
+}
+
+.card-container{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+/*IMG*/
+
+.card-container-img{
+    height: 170px;
+    width: 125px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/*DETAILS*/
+
+.card-container-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container-details-location-mapUrl{
+    font-weight: 400;
+    font-size: 0.64rem;
+    margin-bottom: 7px;
+}
+
+.fa-location-dot{
+    margin-right: 5px;
+    color: #f55a5a;
+}
+
+.card-container-details-location{
+    margin-right: 12px;
+    text-transform: uppercase;
+    color: #2B283A;
+}
+
+.card-container-details-mapUrl{
+    color: #918E9B;
+}
+
+.card-container-details-title,
+.card-container-details-date,
+.card-container-details-description{
+    margin: 0;
+    color: #2B283A;
+}
+
+.card-container-details-title,
+.card-container-details-date{
+    font-weight: 700;
+}
+
+.card-container-details-date,
+.card-container-details-description{
+    font-size: 0.64rem;
+}
+
+.card-container-details-title{
+    font-size: 1.563rem;
+    margin-bottom: 14px;
+}
+
+.card-container-details-date{
+    margin-bottom: 10px;
+}
+
+.card-container-details-description{
+    font-weight: 400;
+}
+
