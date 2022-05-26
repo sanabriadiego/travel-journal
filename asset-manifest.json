@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/travel-journal/static/js/main.b723b55f.js",
+    "index.html": "/travel-journal/index.html",
+    "main.b723b55f.js.map": "/travel-journal/static/js/main.b723b55f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b723b55f.js"
+  ]
+}
